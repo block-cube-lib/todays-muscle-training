@@ -73,7 +73,7 @@ unit = "Count"
 [[traning_settings]]
 id = "twist_crunch"
 name = "ツイストクランチ"
-description = "腹直筋・下部を鍛える運動です"
+description = "腹斜筋群・上部を鍛える運動です"
 min_amount = 10
 increase_amount = 5
 unit = "LeftAndRightCount"
