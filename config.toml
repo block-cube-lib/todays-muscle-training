@@ -1,0 +1,135 @@
+[[traning_settings]]
+id = "sholter_press"
+name = "ショルダープレス"
+description = "三角筋・鎖骨部(前部)を鍛える筋トレです"
+min_amount = 10
+increase_amount = 5
+unit = "Count"
+
+[[traning_settings]]
+id = "diamond_push_up"
+name = "ダイヤモンド・プッシュアップ"
+description = "上腕三頭筋・外側頭を鍛える運動です"
+min_amount = 10
+increase_amount = 5
+unit = "Count"
+
+[[traning_settings]]
+id = "push_up"
+name = "プッシュアップ"
+description = "大胸筋・胸肋部(中部)を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "palm_press"
+name = "パームプレス"
+description = "大胸筋・中央部を鍛える運動です"
+min_amount = 10
+increase_amount = 5
+unit = "LeftAndRightCount"
+
+[[traning_settings]]
+id = "seratas_push_up"
+name = "セラタス・プッシュアップ"
+description = "前鋸筋を鍛える運動です"
+min_amount = 10
+increase_amount = 5
+unit = "Count"
+
+[[traning_settings]]
+id = "back_extension"
+name = "バックエクステンション"
+description = "脊柱起立筋・腰椎部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "LeftAndRightSecond"
+
+[[traning_settings]]
+id = "crunch"
+name = "クランチ"
+description = "腹直筋・上〜中部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "sit_up"
+name = "シットアップ"
+description = "腹直筋・上〜中部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "reverse_crunch"
+name = "リバースクランチ"
+description = "腹直筋・下部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "twist_crunch"
+name = "ツイストクランチ"
+description = "腹直筋・下部を鍛える運動です"
+min_amount = 10
+increase_amount = 5
+unit = "LeftAndRightCount"
+
+[[traning_settings]]
+id = "reverse_lunge"
+name = "リバースランジ"
+description = "大殿筋・上部を鍛える運動です"
+min_amount = 10
+increase_amount = 5
+unit = "LeftAndRightCount"
+
+[[traning_settings]]
+id = "leg_twist"
+name = "レッグツイスト"
+description = "腹斜筋群・下部を鍛える運動です"
+min_amount = 5
+increase_amount = 5
+unit = "LeftAndRightCount"
+
+[[traning_settings]]
+id = "wide_stance_squat"
+name = "ワイドスタンス・スクワット"
+description = "大殿筋・下部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "back_kick"
+name = "バックキック"
+description = "大殿筋・下部を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "LeftAndRightCount"
+
+[[traning_settings]]
+id = "sissy_squat"
+name = "シシー・スクワット"
+description = "大腿四頭筋・大腿直筋を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "full_squat"
+name = "フルスクワット"
+description = "大腿四頭筋・外側広筋を鍛える運動です"
+min_amount = 10
+increase_amount = 10
+unit = "Count"
+
+[[traning_settings]]
+id = "standing_calf_raise"
+name = "スタンディングカーフレイズ"
+description = "腓腹筋・内側頭を鍛える運動です"
+min_amount = 20
+increase_amount = 10
+unit = "Count"
