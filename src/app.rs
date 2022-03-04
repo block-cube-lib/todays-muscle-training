@@ -20,7 +20,6 @@ pub struct Config {
 impl Config {
     fn load() -> Config {
         let config = include_str!("../config.toml");
-        log::info!("{}", &config);
         toml::from_str(&config).unwrap()
     }
 }
