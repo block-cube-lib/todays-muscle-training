@@ -20,6 +20,10 @@ pub struct TraningSetting {
 }
 
 impl TraningSetting {
+    pub fn id(&self) -> &String {
+        &self.id
+    }
+
     pub fn description(&self) -> &String {
         &self.description
     }
@@ -32,9 +36,19 @@ pub struct Traning {
 }
 
 impl Traning {
-    fn amount(&self) -> usize {
+    pub fn amount(&self) -> usize {
         let setting = &self.traning_setting;
         setting.min_amount + setting.increase_amount * (self.load - 1)
+    }
+    
+    pub fn amount_with_unit(&self) -> String {
+        let amount = self.amount();
+        match self.traning_setting.unit {
+            Unit::Count => format!("{}回", amount),
+            Unit::Second => format!("{}秒", amount),
+            Unit::LeftAndRightCount=> format!("左右{}回ずつ", amount),
+            Unit::LeftAndRightSecond => format!("左右{}秒ずつ", amount),
+        }
     }
 }
 
