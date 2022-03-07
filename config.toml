@@ -44,7 +44,7 @@ name = "バックエクステンション"
 description = "脊柱起立筋・腰椎部を鍛える運動です"
 min_amount = 10
 increase_amount = 10
-unit = "LeftAndRightSecond"
+unit = "Count"
 
 [[traning_settings]]
 id = "crunch"
